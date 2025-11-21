@@ -35,7 +35,7 @@ O modelo foi treinado com features que refletem o comportamento de risco em tran
 
 Análise da Matriz: O resultado mais importante é o **Falso Negativo (FN = 0)**. Isso significa que nenhuma fraude real passou despercebida pelo modelo de teste, atingindo o objetivo de alto **Recall**.
 
-### 2. Explicabilidade (Motivação da Decisão)
+### Explicabilidade (Motivação da Decisão)
 O uso da Regressão Logística permite a **Interpretabilidade Imediata**. O modelo chegou às suas conclusões porque as *features* de Alto Risco e Horário Suspeito ativaram os **pesos negativos (coeficientes)** aprendidos, empurrando a probabilidade para 100% de fraude.
 
 ### 3. Simulação em Produção (Dados Novos)
